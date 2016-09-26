@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "telemetry": {
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "sensors": {
+          "type": "nested"
+        }
+      }
+    }
+  }
+}
